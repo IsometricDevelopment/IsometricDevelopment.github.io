@@ -14,4 +14,10 @@ jQuery(document).ready(function(){
 		jQuery('html, body').animate({scrollTop:page4}, 'slow');
 		return false;
 	});
+    var page5 = jQuery('#page5').offset().top;
+	jQuery('#scroll4').click(function(){
+		jQuery('html, body').animate({scrollTop:page5}, 'slow');
+		return false;
+	});
+    
 });

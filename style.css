@@ -9,8 +9,7 @@ p {
 }
 
 img{
-    text-align: center;
-    margin-bottom: 100;
+    display: inline-block;
 }
 
 div.invisiblepusher{
@@ -23,11 +22,6 @@ div.iconinvisiblepusher{
     width: 100%;
     height: calc(40% - 60px);
     display: block;
-}
-
-div.title {
-    display: block;
-    z-index: 1000;
 }
 
 #icon {
@@ -53,9 +47,18 @@ div.page {
 }
 
 #page4{
+    height: 100%;
 }
 
 #page5{
+    height: 100%;
+}
+
+#page6{
+    height: 100%;
+}
+#page7{
+    height: 100%;
 }
 
 div.subheader {
@@ -63,9 +66,9 @@ div.subheader {
     text-align: center;
 }
 
-.iphoneRight {
+.iphone {
     height: 60%;
-    margin-left: 10%;
+    margin-right: 5%;
 }
 
 table {
@@ -79,16 +82,16 @@ tr {
 }
 
 td.phone {
-    width: 30%;
+    width: 40%;
     height: inherit;
     text-align: center;
 }
 
 td.text {
-    width: 50%;
+    width: 60%;
     height: inherit;
     text-align: left;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 td.team {
@@ -99,6 +102,22 @@ td.team {
     padding-right: 10%;
 }
 
+td.wwd-mid{
+    width: 40%;
+    height: inherit;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+td.wwd-side{
+    width: 25%;
+    height: inherit;
+    text-align: center;
+}
+    
+    
+
 #footer {
     text-align: center;
 }
@@ -107,25 +126,28 @@ h1{
     font-size: 80px;
     text-align: center;
     margin: 0 0;
+    display: inline;
 }
 
 h2{
     font-size: 60px;
     text-align: center;
     margin: 0 0;
+    display: inline;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin: 0 0;
+    display: inline;
 }
 
 div.centered {
     text-align: center;
 }
 
-p.red {
+.red {
     color: #e74c3c;
     display: inline-block;
 }
@@ -153,7 +175,7 @@ a.nav-link:visited{
    text-decoration: underline;
 }
 a.nav-link:hover{
-   color:  #848482;
+   color:  #e74c3c;
    text-decoration: underline;
 }
 a.nav-link:active{
@@ -170,7 +192,7 @@ a.nav-link-red:visited{
    text-decoration: underline;
 }
 a.nav-link-red:hover{
-   color:  #848482;
+   color:  #000000;
    text-decoration: underline;
 }
 a.nav-link-red:active{
