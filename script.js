@@ -1,4 +1,9 @@
 jQuery(document).ready(function(){
+    
+    if (screen.width <= 800) {
+        window.location = "http://isometric.co/mobileindex.html";
+    }
+    
     var page2 = jQuery('#page2').offset().top;
 	jQuery('#scroll').click(function(){
 		jQuery('html, body').animate({scrollTop:page2}, 'slow');
