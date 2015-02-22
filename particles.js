@@ -18,7 +18,7 @@ function launchParticlesJS(tag_id, params){
       h: canvas_el.offsetHeight
     },
     particles: {
-      color: '#fff',
+      color: '#000',
       color_random: false,
       shape: 'circle', // "circle", "edge" or "triangle"
       opacity: {
