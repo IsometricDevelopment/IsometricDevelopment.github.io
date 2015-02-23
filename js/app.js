@@ -40,7 +40,7 @@ particlesJS('particles-js', {
     }
   },
   interactivity: {
-    enable: true,
+    enable: false,
     mouse: {
       distance: 300
     },

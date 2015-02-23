@@ -24,5 +24,4 @@ jQuery(document).ready(function(){
 		jQuery('html, body').animate({scrollTop:page5}, 'slow');
 		return false;
 	});
-    
 });
