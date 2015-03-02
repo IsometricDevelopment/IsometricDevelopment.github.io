@@ -93,7 +93,7 @@ div.subheader {
     text-align: center;
 }
 
-.iphone {
+#iphone {
     height: 60%;
     margin-right: 5%;
 }
@@ -108,22 +108,16 @@ table {
 }
 
 tr.icons {
-    height: 30%;
+    height: 20%;
 }
 
 tr.text {
-    height: 40%;
+    height: 50%;
 }
 
 tr {
     width: 100%;
     height: inherit;
-}
-
-td.phone {
-    width: 40%;
-    height: inherit;
-    text-align: center;
 }
 
 td.text {

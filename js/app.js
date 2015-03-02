@@ -19,30 +19,30 @@ particlesJS('particles-js', {
         sync: false
       }
     },
-    size: 4,
-    size_random: true,
-    nb: 150,
+    size: 3,
+    size_random: false,
+    nb: 100,
     line_linked: {
       enable_auto: true,
-      distance: 100,
+      distance: 200,
       color: '#000',
       opacity: 1,
       width: 1,
       condensed_mode: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 600
       }
     },
     anim: {
       enable: true,
-      speed: 10
+      speed: 5
     }
   },
   interactivity: {
     enable: false,
     mouse: {
-      distance: 300
+      distance: 100
     },
     detect_on: 'canvas', // "canvas" or "window"
     mode: 'grab', // "grab" or false
