@@ -2,13 +2,13 @@
   font-family: 'Montserrat';
   font-weight: normal;
   font-style: normal;
-  src: local('Montserrat-GG'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYMDdSZkkecOE1hvV7ZHvhyU.ttf)   format('truetype');
+  src: local('Montserrat'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYMDdSZkkecOE1hvV7ZHvhyU.ttf)   format('truetype');
 }
 
 body {
     margin: 0 0;
     padding: 0 0;
-	font-family: "Montserrat";
+	font-family: "Lato";
 }
 
 canvas {
