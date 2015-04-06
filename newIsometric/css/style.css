@@ -51,7 +51,7 @@ body {
 }
 
 .title {
-    margin: 25% 0;
+    margin:20%;
 }
 
 .wwd {
@@ -122,6 +122,14 @@ body {
     width: 100%;
 }
 
+.hexacolors {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 *,
 *:after,
@@ -133,6 +141,15 @@ body {
 
 i {
     color: #e74c3c;
+}
+
+p {
+    font-family: 'Lato';
+    font-size: 1em;
+    text-align: left;
+    margin: 0 0;
+    font-weight: 100;
+    color: inherit;
 }
 
 h1 {
@@ -166,10 +183,9 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.75em;
     text-align: center;
     margin: 0 0;
-    display: inline;
     font-weight: 800;
 }
 
