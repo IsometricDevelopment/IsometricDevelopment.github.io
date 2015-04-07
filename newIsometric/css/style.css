@@ -45,9 +45,9 @@ body {
     height: 100%;
     width: 100%;
     
-    -webkit-box-shadow: 0px -100px 100px 0px rgb(0, 0, 0) inset;
-    -moz-box-shadow: 0px -100px 100px 0px rgb(0, 0, 0) inset;
-    box-shadow: 0px -100px 100px 0px rgb(0, 0, 0) inset;
+    -webkit-box-shadow: 0px -100px 100px 0px #222 inset;
+    -moz-box-shadow: 0px -100px 100px 0px #222 inset;
+    box-shadow: 0px -100px 100px 0px #222 inset;
 }
 
 .title {
@@ -58,7 +58,7 @@ body {
     color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     background-size: cover;
-    background-color: rgba(0,0,0,1);
+    background-color: #222;
     height: 100%;
     width: 100%;
     
@@ -146,7 +146,7 @@ body {
 }
 
 .sebastian {
-    color: #fff;
+    color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     height: 100%;
     width: 100%;
@@ -154,7 +154,7 @@ body {
 }
 
 .josh {
-    color: #fff;
+    color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     height: 100%;
     width: 100%;
@@ -162,7 +162,7 @@ body {
 }
 
 .avery {
-    color: #fff;
+    color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     height: 100%;
     width: 100%;
@@ -170,7 +170,7 @@ body {
 }
 
 .ryan {
-    color: #fff;
+    color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     height: 100%;
     width: 100%;

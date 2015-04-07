@@ -142,28 +142,28 @@ body {
 }
 
 #sebastian {
-    background-color: #333;
+    background-color: #fff;
     background-image: url(../images/sebastian_cain_circle.png);
     background-size: 200px auto;
     height: 50%;
 }
 
 #josh {
-    background-color: #444;
+    background-color: #eee;
     background-image: url(../images/josh_circle.png);
     background-size: 200px auto;
     height: 50%;
 }
 
 #avery {
-    background-color: #333;
+    background-color: #fff;
     background-image: url(../images/avery.png);
     background-size: 200px auto;
     height: 50%;
 }
 
 #ryan {
-    background-color: #444;
+    background-color: #eee;
     background-image: url(../images/ryan_circle.png);
     background-size: 200px auto;
     height: 50%;
