@@ -1,5 +1,5 @@
 /* Set all parents to full height */
-html, body, 
+html, body,
 .container,
 .cbp-fbscroller,
 .cbp-fbscroller section { 
@@ -57,7 +57,7 @@ body {
 	background-attachment: fixed;
 }
 
-#fbsection1 {
+#deflector {
     background: #19b5fe;
     background: url(../images/deflector.png), -moz-linear-gradient(-45deg, #19b5fe 0%, #ffff00 100%);
     background: url(../images/deflector.png), -webkit-gradient(linear, left top, right bottom, color-stop(0%,#19b5fe), color-stop(100%,#ffff00));
@@ -73,7 +73,7 @@ body {
     
 }
 
-#fbsection2 {
+#snappr {
     background: #555555;
     background: url(../images/snappr.png), -moz-linear-gradient(top,  #555555 0%, #000000 100%);
     background: url(../images/snappr.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#000000));
@@ -88,18 +88,83 @@ body {
 	background-size: auto 50%, 100% 100%;
 }
 
-#fbsection3 {
+#hexacolors {
     background-color: #001F3F;
 	background-image: url(../images/hexacolors.png);
 }
 
-#fbsection4 {
-    background-color: #666;
-	background-image: url(../images/project-phone--iphone.png);
+#smith {
+    background: #7f0000;
+    background: url(../images/smith.png), -moz-linear-gradient(45deg, #7f0000 0%, #000000 100%);
+    background: url(../images/smith.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%,#7f0000), color-stop(100%,#000000));
+    background: url(../images/smith.png), -webkit-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), -o-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), -ms-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f0000', endColorstr='#000000',GradientType=1 );
+    background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed, scroll;
+	background-size: auto 50%, 100% 100%;
 }
 
-#fbsection5 {
+#viewzik {
     background-color: #888;
-	background-image: url(../images/project-phone--iphone.png);
+	background-image: url(../images/viewzik.png);
 }
 
+#planning {
+    background-color: #fff;
+    background-image: url(../images/search.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#building {
+    background-color: #eee;
+    background-image: url(../images/atom.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#publishing {
+    background-color: #fff;
+    background-image: url(../images/checklist.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#marketing {
+    background-color: #eee;
+    background-image: url(../images/analytics.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#sebastian {
+    background-color: #333;
+    background-image: url(../images/sebastian_cain_circle.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#josh {
+    background-color: #444;
+    background-image: url(../images/josh_circle.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#avery {
+    background-color: #333;
+    background-image: url(../images/avery.png);
+    background-size: 200px auto;
+    height: 50%;
+}
+
+#ryan {
+    background-color: #444;
+    background-image: url(../images/ryan_circle.png);
+    background-size: 200px auto;
+    height: 50%;
+}

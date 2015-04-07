@@ -33,7 +33,7 @@ body {
     flex-pack: justify;
     
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .splash {
@@ -85,6 +85,8 @@ body {
     -webkit-flex-direction: row;
     
     z-index: 0;
+    
+    position: relative;
 }
 
 .descriptleft {
@@ -129,6 +131,85 @@ body {
     width: 100%;
 }
 
+.smith {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.viewzik {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.sebastian {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.josh {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.avery {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.ryan {
+    color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.planning {
+    color: #000;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.building {
+    color: #000;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.publishing {
+    color: #000;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.marketing {
+    color: #000;
+	font-family: 'Lato', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+
 
 
 *,
@@ -162,15 +243,11 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
-    text-align:  center;
+    font-size: 2.5em;
+    text-align:  right;
     margin: 0 0;
     font-weight: 100;
     color: #e74c3c;
-}
-
-h2.right {
-    text-align:  right;
 }
 
 
@@ -562,11 +639,11 @@ div.centered {
 }
 
 a.nav-link:link{
-   color:#000000;
+   color:#e74c3c;
    text-decoration: underline;
 }
 a.nav-link:visited{
-   color: #000000;
+   color: #e74c3c;
    text-decoration: underline;
 }
 a.nav-link:hover{
@@ -574,7 +651,7 @@ a.nav-link:hover{
    text-decoration: underline;
 }
 a.nav-link:active{
-   color: #000000;
+   color: #e74c3c;
    text-decoration: underline;
 }
 
@@ -587,7 +664,7 @@ a.nav-link-black:visited{
    text-decoration: underline;
 }
 a.nav-link-black:hover{
-   color:  #000000;
+   color:  #e74c3c;
    text-decoration: underline;
 }
 a.nav-link-black:active{

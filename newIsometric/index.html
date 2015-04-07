@@ -21,8 +21,7 @@
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container">
-            <div class="splash flexvert">
+        <div class="splash flexvert">
                 <div class="title"><h1 class="red">ISOMETRIC</h1></div>
                 <div><a href="#"><i class="fa fa-angle-down fa-2x"></i></a></div>
             </div>
@@ -39,32 +38,32 @@
                 </div>
                 <div><a href="#"><i class="fa fa-angle-down fa-2x"></i></a></div>
             </div>
+		<div class="container">
 			<div id="cbp-fbscroller" class="cbp-fbscroller">
 				<nav>
-					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
-					<a href="#fbsection2">Section 2</a>
-					<a href="#fbsection3">Section 3</a>
-					<a href="#fbsection4">Section 4</a>
-					<a href="#fbsection5">Section 5</a>
+					<a href="#deflector" class="cbp-fbcurrent">Section 1</a>
+					<a href="#snappr">Section 2</a>
+					<a href="#hexacolors">Section 3</a>
+					<a href="#smith">Section 4</a>
+					<!--<a href="#fbsection5">Section 5</a>-->
 				</nav>
-				<section id="fbsection1">
+				<section id="deflector">
                     <div class="flexhorz deflector">
                         <div class="descriptleft">
-                            <h2 style="color:black; text-align:right">DEFLECTOR</h2><br><br>
-                            <img src="images/appstoredownload.png" width="200px">
+                            <img src="images/deflectorsquare.png" width="200px">
+                            <a href="https://itunes.apple.com/us/app/deflector/id953922049?ls=1&mt=8"><img src="images/appstoredownload.png" width="200px"></a>
                         </div>
                         <div class="descriptright">
-                            <h4>BOUNCE BALLS OFF A BAR</h4><br>
+                            <h4>ADDICTIVE GAMEPLAY</h4><br>
                             <p>Deflector is a game made with Swift. It uses the SpriteKit 2D framework. The objective of the game is to use the one of the three different control modes (tap, hold, or drag) to spin the bar in order to bounce falling balls to the right or left side.</p><br>
                     <p>We started work on Deflector in November of 2014, and thanks to fast prototyping and swift (pun intended) debugging, we were able to get it out the door and into the App Store by January 2015. Although this was a 100% in-house project with no client, we think this displays the execution skill and design expertise of our team. Deflector conforms to a more minimal style.</p><br>
                         </div>
                     </div>
                 </section>
-				<section id="fbsection2">
+				<section id="snappr">
                     <div class="flexhorz snappr">
                         <div class="descriptleft">
-                            <h2 style="color:white; text-align:right">SNAPPR</h2><br><br>
-                            <img src="images/appstoredownload.png" width="200px">
+                            <img src="images/snapprsquare.png" width="200px">
                         </div>
                         <div class="descriptright">
                             <h4>ORGANIZE YOUR MEDIA</h4><br>
@@ -73,20 +72,33 @@
                         </div>
                     </div>
                 </section>
-				<section id="fbsection3">
+				<section id="hexacolors">
                     <div class="flexhorz hexacolors">
                         <div class="descriptleft">
-                            <h2 style="color:white; text-align:right">HEXACOLORS</h2><br><br>
-                            <img src="images/appstoredownload.png" width="200px">
+                            <img src="images/hexacolorssquare.png" width="200px">
+                            <a href="https://itunes.apple.com/us/app/hexacolors/id937623815?mt=8"><img src="images/appstoredownload.png" width="200px"></a>
                         </div>
                         <div class="descriptright">
                             <h4>IMPROVE YOUR REACTION TIME</h4><br>
-                            <p>Hexacolors is a reaction time game made with Objective-C. There is quick gameplay, and the user must attempt to click all six colors according to the content of the text shown, ignoring the color of the text. As there is immediate brain connection between identical colors, the user may feel a strong urge to click the wrong tile, making gameplay harder</p><br>
+                            <p>Hexacolors is a reaction time game made with Objective-C. There is quick gameplay, and the user must attempt to click all six colors according to the content of the text shown, ignoring the color of the text. As there is immediate brain connection between identical colors, the user may feel a strong urge to click the wrong tile, making gameplay harder.</p><br>
                     <p>We developed Hexacolors in October of 2014, and we published it in January 2015. </p><br>
                         </div>
                     </div>
                 </section>
-				<section id="fbsection4">
+				<section id="smith">
+                    <div class="flexhorz smith">
+                        <div class="descriptleft">
+                            <img src="images/smithsquare.png" width="200px">
+                        </div>
+                        <div class="descriptright">
+                            <h4>EXTEND YOUR BOUNDARIES</h4><br>
+                            <p>Smith is an AI interfacing application built with Objective-C. The user programs knock sequences on the table and then sets actions that must be executed when the knock is recognized. Then, when the user knocks  a sequence at any time, the app uses advanced pattern recognition and accelorometer vibration data</p><br>
+                    <p>We started Smith in March of 2015, and we are still in the process of developing it. Smith is open-sourced on Github.</p><br>
+                        </div>
+                    </div>
+                </section>
+                <!--
+				<section id="viewzik">
                     <div class="flexhorz viewzik">
                         <div class="descriptleft">
                             <h2 style="color:white; text-align:right">VIEWZIK</h2><br><br>
@@ -99,12 +111,10 @@
                         </div>
                     </div>
                 </section>
-				<section id="fbsection5">
-                
-                </section>
+                -->
 			</div>
             
-            <nav id="bt-menu" class="bt-menu">
+            <!--<nav id="bt-menu" class="bt-menu">
 				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
 				<ul>
 					<li><a href="#" class="bt-icon" style="color:#e74c3c">Home</a></li>
@@ -114,8 +124,165 @@
 					<li><a href="contact.html" class="bt-icon">Get a Quote</a></li>
 					<li><a href="#" class="bt-icon"></a>"</li>
 				</ul>
-			</nav>
+			</nav>-->
 		</div><!-- /container -->
+        <!--here's the hacking-->
+        <div style="display:block;height:500%;width:100%"></div>
+           <div class="wwd flexvert">
+                <div>
+                    <h3>Over time, we have develped a tried-and-true process for developing sucessful iOS apps. We've collected our expertise into a guideline which allows us to help any variety of client.</h3>
+                </div>
+                <div>
+                    <h3>See our process below.</h3>
+                </div>
+                <div><a href="#"><i class="fa fa-angle-down fa-2x"></i></a></div>
+            </div>
+        
+        <!-----------------------------------------------WHAT WE DO----------------------------------------------->
+        
+		<div class="container">
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<!--<nav>
+					<a href="#sebastian" class="cbp-fbcurrent">Section 1</a>
+					<a href="#josh">Section 2</a>
+					<a href="#avery">Section 3</a>
+					<a href="#ryan">Section 4</a>
+					<!--<a href="#fbsection5">Section 5</a>
+				</nav>-->
+				<section id="planning">
+                    <div class="flexhorz planning">
+                        <div class="descriptleft">
+                            <h2>Planning</h2>
+                        </div>
+                        <div class="descriptright">
+                            <p>
+                                We'll take your idea for a mobile app, and help you refine and improve it, until we have a functioning full-fledged plan for an app that is not only possible with your budget and time frame, but that will be successful on the App Store.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="building">
+                    <div class="flexhorz building">
+                        <div class="descriptleft">
+                            <h2>Building</h2>
+                        </div>
+                        <div class="descriptright">
+                            <p>
+                                We'll carefully begin the build process, working closely with you and heeding your instruction for edits. We'll use our design expertise to ensure that your app looks professional while functioning exactly as you want it to.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="publishing">
+                    <div class="flexhorz publishing">
+                        <div class="descriptleft">
+                            <h2>Publishing</h2>
+                        </div>
+                        <div class="descriptright">
+                            <p>
+                                We'll make sure your app has all the required information for publishment on the App Store, and we'll even go out of our way to provide media assets like screenshots and video previews to help promote your app.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="marketing">
+                    <div class="flexhorz marketing">
+                        <div class="descriptleft">
+                            <h2>Marketing</h2>
+                        </div>
+                        <div class="descriptright">
+                            <p>
+                                We have experience publishing and marketing apps, and we'll make sure that your app gains recognition on the App Store and hopefully becomes a hit. We can use our insider skills to make your app have qualities known to make apps succeed.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+			</div>
+		</div>
+        <!--here's the hacking-->
+        <div style="display:block;height:100%;width:100%"></div>
+           <div class="wwd flexvert">
+                <div>
+                    <h3>We have an incredible team with members who make all this possible.</h3>
+                </div>
+                <div>
+                    <h3>Meet them below.</h3>
+                </div>
+                <div><a href="#"><i class="fa fa-angle-down fa-2x"></i></a></div>
+            </div>
+        
+        <!-----------------------------------------------STAFF----------------------------------------------->
+        
+		<div class="container">
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<!--<nav>
+					<a href="#sebastian" class="cbp-fbcurrent">Section 1</a>
+					<a href="#josh">Section 2</a>
+					<a href="#avery">Section 3</a>
+					<a href="#ryan">Section 4</a>
+					<!--<a href="#fbsection5">Section 5</a>
+				</nav>-->
+				<section id="sebastian">
+                    <div class="flexhorz sebastian">
+                        <div class="descriptleft">
+                            <h2>Sebastian<br>Cain</h2>
+                        </div>
+                        <div class="descriptright">
+                            <h4>iOS Designer/Developer, Web Designer</h4><br>
+                            <p>
+                    Sebastian is an experienced iOS and Web developer, the creator of this website, and the cofounder of Isometric Studios. He dabbles in design and animation, but his main focus is iOS apps and games. His personal website can be found <a class="nav-link-black" href="http://sebastiancain.com">here</a>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="josh">
+                    <div class="flexhorz josh">
+                        <div class="descriptleft">
+                            <h2>Josh<br>Liu</h2>
+                        </div>
+                        <div class="descriptright">
+                            <h4>Full-Stack Web and iOS Developer</h4><br>
+                            <p>
+                    Josh is also a cofounder of Isometric Studios, and he is a full stack developer. He uses a variety of programming languages, including Objective-C, Ruby, Go, Javascript, and Python. His website and past projects can be found <a class="nav-link-black" href="http://joshliu.org">here</a>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="avery">
+                    <div class="flexhorz avery">
+                        <div class="descriptleft">
+                            <h2>Avery<br>Lamp</h2>
+                        </div>
+                        <div class="descriptright">
+                            <h4>Low-Level iOS Developer</h4><br>
+                            <p>
+                    Avery is an experienced iOS developer. He enjoys building large applications as well as games.  He also is experienced in Java, although he focuses mainly on iOS apps written in Objective-C.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+				<section id="ryan">
+                    <div class="flexhorz ryan">
+                        <div class="descriptleft">
+                            <h2>Ryan<br>Sullivan</h2>
+                        </div>
+                        <div class="descriptright">
+                            <h4>iOS Developer/Marketer</h4><br>
+                            <p>Ryan Sullivan is an iOS developer, marketer, and video editor. He also has experience in special effects, 3D animation, robotics, and video game design.</p><br>
+                        </div>
+                    </div>
+                </section>
+			</div>
+		</div>
+        <div style="display:block;height:100%;width:100%"></div>
+           <div class="wwd flexvert">
+                <div>
+                    <h3>We'd love to get in touch with you to discuss your next project.</h3>
+                </div>
+                <div>
+                    <h3>Click <a class="nav-link" href="">here</a> to get in touch with us.</h3>
+                </div>
+            </div>
 	</body>
 	<script src="js/classie.js"></script>
 	<script src="js/borderMenu.js"></script>
