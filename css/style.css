@@ -45,9 +45,9 @@ body {
     height: 100%;
     width: 100%;
     
-    -webkit-box-shadow: 0px -100px 100px 0px #222 inset;
-    -moz-box-shadow: 0px -100px 100px 0px #222 inset;
-    box-shadow: 0px -100px 100px 0px #222 inset;
+    -webkit-box-shadow: 0px -100px 100px 0px #111 inset;
+    -moz-box-shadow: 0px -100px 100px 0px #111 inset;
+    box-shadow: 0px -100px 100px 0px #111 inset;
 }
 
 .title {
@@ -58,7 +58,7 @@ body {
     color: #000;
 	font-family: 'Lato', Arial, sans-serif;
     background-size: cover;
-    background-color: #222;
+    background-color: #111;
     height: 100%;
     width: 100%;
     
