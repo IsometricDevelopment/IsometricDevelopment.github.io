@@ -1,5 +1,51 @@
+img.square {
+  width: 200px;
+  height: 200px;
+  margin-bottom: -20px
+}
 
 img.mainlogo {
   width: 356px;
   max-width: 75%;
+}
+
+.white-text {
+  color: #ddd;
+}
+
+#deflector {
+    background: #19b5fe;
+    background: url(../images/deflector.png), -moz-linear-gradient(-45deg, #19b5fe 0%, #ffff00 100%);
+    background: url(../images/deflector.png), -webkit-gradient(linear, left top, right bottom, color-stop(0%,#19b5fe), color-stop(100%,#ffff00));
+    background: url(../images/deflector.png), -webkit-linear-gradient(-45deg, #19b5fe 0%,#ffff00 100%);
+    background: url(../images/deflector.png), -o-linear-gradient(-45deg, #19b5fe 0%,#ffff00 100%);
+    background: url(../images/deflector.png), -ms-linear-gradient(-45deg, #19b5fe 0%,#ffff00 100%);
+    background: url(../images/deflector.png), linear-gradient(135deg, #19b5fe 0%,#ffff00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b5fe', endColorstr='#ffff00',GradientType=1 );
+}
+
+#snappr {
+    background: #555555;
+    background: url(../images/snappr.png), -moz-linear-gradient(top,  #555555 0%, #000000 100%);
+    background: url(../images/snappr.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#000000));
+    background: url(../images/snappr.png), -webkit-linear-gradient(top,  #555555 0%,#000000 100%);
+    background: url(../images/snappr.png), -o-linear-gradient(top,  #555555 0%,#000000 100%);
+    background: url(../images/snappr.png), -ms-linear-gradient(top,  #555555 0%,#000000 100%);
+    background: url(../images/snappr.png), linear-gradient(to bottom,  #555555 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#000000',GradientType=0 );
+}
+
+#hexacolors {
+    background-color: #001F3F;
+}
+
+#smith {
+    background: #7f0000;
+    background: url(../images/smith.png), -moz-linear-gradient(45deg, #7f0000 0%, #000000 100%);
+    background: url(../images/smith.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%,#7f0000), color-stop(100%,#000000));
+    background: url(../images/smith.png), -webkit-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), -o-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), -ms-linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    background: url(../images/smith.png), linear-gradient(45deg, #7f0000 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f0000', endColorstr='#000000',GradientType=1 );
 }
